@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TextureNodeLink">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAAAIAAAA=</HashCode>
+      <FileName>TextureNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureNode">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACCAAAAAQAQAAAAABEABAAAAAABAAAAAA=</HashCode>
+      <FileName>TextureNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureMan">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAEAAAAAAIAAABBAAAAAAAAAAACAAAIggEAAA=</HashCode>
+      <FileName>TextureManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="active" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="TextureName">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAACAAAAABAAAAAAAABEAAAAAAAAAAA=</HashCode>
+      <FileName>TextureNode.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

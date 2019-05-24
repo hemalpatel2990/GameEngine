@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="ShaderObject.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject.cpp">
+      <Filter>GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_ColorByPosition.cpp">
+      <Filter>GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Wireframe.cpp">
+      <Filter>GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_FlatTexture.cpp">
+      <Filter>GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureNode.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMan.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTest.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectMan.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Null.cpp">
+      <Filter>GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="NullModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_TextureLight.cpp">
+      <Filter>GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_ConstColor.cpp">
+      <Filter>GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_WireframeConstantColor.cpp">
+      <Filter>GraphicsObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>BoundingVol</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMan.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDemoInput.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraModel.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraNode.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="PyramidModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Anim.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Anim2Bone.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimMan.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_GLFW">
+      <UniqueIdentifier>{d1e99522-f419-4132-b372-6218cfbf1410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_GLFW\lib">
+      <UniqueIdentifier>{a836f45b-11c9-4492-9c60-f8dd52985ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_GLFW\include">
+      <UniqueIdentifier>{49489779-46e9-4d54-b45e-93e51ba56c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_SB6">
+      <UniqueIdentifier>{073ae4dc-977d-4832-b923-136da6fc1fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_SB6\lib">
+      <UniqueIdentifier>{0cc57226-561b-483b-9687-954c2d7bc1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_SB6\include">
+      <UniqueIdentifier>{5a8f188b-0355-42b6-ae5f-379742fdad8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Math">
+      <UniqueIdentifier>{84ebef71-2d32-45ea-a744-fee501a14e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Math\lib">
+      <UniqueIdentifier>{e350e5bc-8ac1-4af1-8df5-1a4ce448acb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Math\include">
+      <UniqueIdentifier>{047e1208-df33-4eb6-b0af-325bff758686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_File">
+      <UniqueIdentifier>{c40d7436-d4f4-4a7c-9f91-c5d60dbd8c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_File\include">
+      <UniqueIdentifier>{c98eabc2-5154-43b2-a87d-b5ea689facd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_File\lib">
+      <UniqueIdentifier>{a158f271-9499-41da-9f06-ec97da438ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{ccb47cc9-7aa0-4070-89c4-06403e4f1e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{eaa16100-84ee-4d4a-a38f-e81d675bebdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{2043e291-95fe-4602-a31f-4f4b0137037d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObject">
+      <UniqueIdentifier>{52827fb0-692f-4475-a150-c35c2812f74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{20a22edb-4433-49a3-890f-25c53ba3b606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{d23d13fb-29c2-4662-8215-156afa0cbcb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trace">
+      <UniqueIdentifier>{7140fbda-1473-4964-ad22-218f9021ce54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{aebff886-9b12-44f0-bf9c-7ee363fd5691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_PCSTree">
+      <UniqueIdentifier>{66c923f9-455b-4fc1-a6ea-968550dcd050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_PCSTree\lib">
+      <UniqueIdentifier>{c26589aa-e2d5-4779-8a79-d74f5e3def0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_PCSTree\include">
+      <UniqueIdentifier>{dea563c1-1af2-4f3f-bd40-c19009621fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{2e5c4022-3f12-46c5-9998-dc4f92de1aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BoundingVol">
+      <UniqueIdentifier>{cf8467f4-45a5-4bec-8bd2-29b764d72c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Time">
+      <UniqueIdentifier>{33b3aaec-b2a1-4ada-9cdd-1c18b9e283a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Time\include">
+      <UniqueIdentifier>{077a6768-fbd3-4e16-9b94-519e2c92ed66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Time\lib">
+      <UniqueIdentifier>{77ab3af0-a3d6-4f66-8f41-aa74fa1cd688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{8a737611-457d-45c6-9737-b7cb2788755f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="ShaderObject.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="LibrarySetup.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_ColorByPosition.h">
+      <Filter>GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Wireframe.h">
+      <Filter>GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_FlatTexture.h">
+      <Filter>GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureNode.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMan.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTest.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsWrapper.h">
+      <Filter>Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectMan.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Null.h">
+      <Filter>GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="NullModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_TextureLight.h">
+      <Filter>GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_ConstColor.h">
+      <Filter>GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelFileHeader.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_WireframeConstantColor.h">
+      <Filter>GraphicsObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>BoundingVol</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMan.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDemoInput.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraModel.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraNode.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="PyramidModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Anim.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBucket.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\File\include\File.h">
+      <Filter>_File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\GLFW\include\GL\glfw.h">
+      <Filter>_GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Align16.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Constants.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Enum.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\MathApp.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\MathEngine.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Matrix.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Quat.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\QuatApp.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Util.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Vect.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\VectApp.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSNode.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSTrace.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSTree.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSTreeForwardIterator.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSTreeIterator.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSTreeReverseIterator.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSTreeSetIterator.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\WindowsWrapper.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\arcball.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\object.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\sb6.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\sb6ext.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\sb6ktx.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\sb6mfile.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\shader.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\vmath.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Time\include\Time.h">
+      <Filter>_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Time\include\Timer.h">
+      <Filter>_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\File\include\File.h">
+      <Filter>_File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\GLFW\include\GL\glfw.h">
+      <Filter>_GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Align16.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Constants.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Enum.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\MathApp.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\MathEngine.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Matrix.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Quat.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\QuatApp.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Util.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\Vect.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Math\include\VectApp.h">
+      <Filter>_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSNode.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSTrace.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSTree.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSTreeForwardIterator.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSTreeIterator.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSTreeReverseIterator.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\PCSTreeSetIterator.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\PCSTree\include\WindowsWrapper.h">
+      <Filter>_PCSTree\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\arcball.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\object.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\sb6.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\sb6ext.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\sb6ktx.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\sb6mfile.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\shader.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\SB6\include\vmath.h">
+      <Filter>_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Time\include\Time.h">
+      <Filter>_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemLibs\Time\include\Timer.h">
+      <Filter>_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimMan.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="colorRender.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="colorRender.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="textureRender.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="textureRender.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="TextureMan.cd">
+      <Filter>Texture</Filter>
+    </None>
+    <None Include="RenderDiagram.cd">
+      <Filter>GraphicsObject</Filter>
+    </None>
+    <None Include="nullRender.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="nullRender.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="texturePointLightDiff.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="texturePointLightDiff.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="constcolorRender.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="constcolorRender.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="colorSingleRender.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="colorSingleRender.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\SystemLibs\File\lib\File_Debug.lib">
+      <Filter>_File\lib</Filter>
+    </Library>
+    <Library Include="..\..\SystemLibs\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\..\SystemLibs\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Math\lib</Filter>
+    </Library>
+    <Library Include="..\..\SystemLibs\PCSTree\lib\PCSTree_Debug.lib">
+      <Filter>_PCSTree\lib</Filter>
+    </Library>
+    <Library Include="..\..\SystemLibs\SB6\lib\sb6_Debug.lib">
+      <Filter>_SB6\lib</Filter>
+    </Library>
+    <Library Include="..\..\SystemLibs\Time\lib\TimeDebug.lib">
+      <Filter>_Time\lib</Filter>
+    </Library>
+    <Library Include="..\..\SystemLibs\File\lib\File_Debug.lib">
+      <Filter>_File\lib</Filter>
+    </Library>
+    <Library Include="..\..\SystemLibs\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\..\SystemLibs\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Math\lib</Filter>
+    </Library>
+    <Library Include="..\..\SystemLibs\PCSTree\lib\PCSTree_Debug.lib">
+      <Filter>_PCSTree\lib</Filter>
+    </Library>
+    <Library Include="..\..\SystemLibs\SB6\lib\sb6_Debug.lib">
+      <Filter>_SB6\lib</Filter>
+    </Library>
+    <Library Include="..\..\SystemLibs\Time\lib\TimeDebug.lib">
+      <Filter>_Time\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
